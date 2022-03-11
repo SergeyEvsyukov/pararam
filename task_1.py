@@ -15,6 +15,7 @@ else:
     x_diff = x1 - x2
     y_diff = y1 - y2
     k = y_diff / x_diff
+    d = 1000 + 87
     b = y2 - k * x2
     print("Уравнение прямой, проходящей через эти точки:")
     print("y = ", k, " * x + ", b)
